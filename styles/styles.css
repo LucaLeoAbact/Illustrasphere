@@ -1,0 +1,145 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+article {
+    margin: auto;
+    max-width: 100em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    text-align: center;
+    margin: 16px;
+}
+
+figure > a {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #523F38;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer > ul > li {
+    list-style: none;
+    margin: 8px 64px;
+}
+
+footer > ul > li > a {
+    color: white;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 32pt;
+    margin: 0;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 64pt;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #1EA896;
+    overflow: hidden;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin-right: 64px;
+}
+
+#imgarttop {
+    margin-bottom: 128px;
+}
+
+#imgartbottom {
+    margin-top: auto;
+}
+
+#desc {
+    grid-area: desc;
+    display: flex;
+    flex-direction: column;
+}
+
+#desc > p {
+    font-size: x-large;
+    margin-right: 32px;
+}
+
+#desc > a {
+    background-color: #B53521;
+    color: white;
+    padding: 24px 64px;
+    border-radius: 16px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 128px;
+    margin-right: 32px;
+}
+
+#homedesc {
+    margin: 32px;
+}
+
+#navright {
+    margin-left: auto;
+    margin-right: 64px;
+}
+
+#square {
+    background-color: #FF715B;
+    color: white;
+    border-radius: 30px;
+    margin: 32px;
+    padding: 32px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#squarearea {
+    background-color: #FF715B;
+    color: white;
+    border-radius: 30px;
+    margin: 32px;
+    padding: 32px;
+    display: grid;
+    grid-template-areas: 
+    'desc .'
+    'desc .';
+    grid-template-columns: auto minmax(auto, 557px);
+}
